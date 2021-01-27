@@ -1,0 +1,52 @@
+.bio-page, .materias {
+  background-color: white
+  padding: 1.3rem 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.bio-page__first {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bio-page__text-logo {
+  width: 150px;
+  height: auto;
+  margin-top: 25px;
+}
+
+.bio-page__text {
+  font-size: 1.6rem;
+  margin-bottom: 0.3rem;
+  font-weight: 400;
+}
+
+.bio-page__img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 50px auto auto;
+}
+
+hr {
+  background-color: black;
+  border: 0;
+  height: 1px;
+  margin: 35px 0;
+}
+
+.materias {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.materias a {
+  margin-bottom: 20px;
+}
